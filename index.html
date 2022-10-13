@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harry'fitness</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/cbum.jpg');
+        /* CSS reset */
+
+
+    }
+
+    .left {
+        position: absolute;
+
+        left: 34px;
+        top: 20px;
+
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        filter: invert(100%);
+        margin: 11px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 54%;
+        text-align: center;
+        margin: 20px auto;
+
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 12px;
+    }
+
+    .navbar li a:hover {
+
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 10px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 6px;
+        border: 2px solid grey;
+        border-radius: 9px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(85, 78, 78);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 109px 7px;
+        padding: 10px 50px;
+        width: 42%;
+        border-radius: -2px;
+        border-radius: 7px;
+
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        text-align: center;
+        display: block;
+        width: 258px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 13px;
+        border-radius: 10px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="class">
+        <div class="left">
+            <img src="img/bell.png" alt="">
+            <div>Fitness Formula</div>
+            <!-- left box for logo -->
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+            <!-- mid box for navbar -->
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+            <!-- right  box for buttons -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join Fitness Formula!advanced machines,PT's and other facilities also available here,now in Kanpur.
+        </h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
